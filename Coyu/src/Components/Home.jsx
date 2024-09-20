@@ -12,7 +12,7 @@ import StoreEvents from "./StoreEvents";
 import Instagram from "./Instagram";
 import Social from "./Social";
 import Brands from "./Brands";
-import MenuBar from "./Menubar";
+import MenuBar from "./MenuBar";
 import Footer from "./Footer";
 
 const Home = () => {
