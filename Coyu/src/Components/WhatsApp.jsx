@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhatsApp = () => {
   return (
-    <div className="flex items-center text-sm justify-between  p-4 rounded-lg shadow-lg max-w-sm mx-auto">
+    <div className="flex items-center text-sm justify-between  p-4 rounded-lg shadow-lg mx-auto">
     <div className='bg-green-50 w-full flex items-center justify-between py-5 px-2'>
     <div>
         <p className="font-bold">Need any help? Simply</p><p className='font-bold'>drop us a text.</p>

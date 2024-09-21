@@ -18,9 +18,9 @@ const StoreEvents = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8 text-sm">
+    <div className="container mx-auto px-4 py-4 text-sm">
       <h2 className="font-bold mb-4">STORE EVENTS</h2>
-      <div className="overflow-x-scroll flex space-x-4">
+      <div className="overflow-x-scroll no-scrollbar flex space-x-4">
         {events.map((event, index) => (
           <div key={index} className="flex-shrink-0 w-64 bg-white shadow-lg rounded-lg overflow-hidden">
             <img

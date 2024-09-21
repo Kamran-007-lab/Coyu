@@ -12,7 +12,7 @@ const CoyuAssurance = () => {
         <h1>COYU ASSURANCE</h1>
         <h3>Premium Quality | Perfect Fit | 24x7 Support</h3>
       </div>
-      <div id="overflow" className="z-0 m-4 w-full max-w-sm">
+      <div id="overflow" className="z-0 w-full max-w-sm">
         <Swiper
           modules={[Pagination]}
           spaceBetween={20}
@@ -22,7 +22,7 @@ const CoyuAssurance = () => {
           className="w-full max-w-full"
         >
           <SwiperSlide>
-            <div className="my-6 text-left bg-[url('https://th.bing.com/th/id/OIP.-u1e82POQwlfP7RG71HzXAHaEK?pid=ImgDet&w=474&h=266&rs=1')] bg-cover bg-center p-4 rounded-lg">
+            <div className="my-8 text-left bg-[url('https://th.bing.com/th/id/OIP.-u1e82POQwlfP7RG71HzXAHaEK?pid=ImgDet&w=474&h=266&rs=1')] bg-cover bg-center p-4 rounded-lg">
               <div className="flex items-start">
                 <div className="flex items-center p-2">
                   <VscVerified className="text-5xl" />
@@ -38,7 +38,7 @@ const CoyuAssurance = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="my-6 text-left bg-[url('https://th.bing.com/th/id/OIP.-u1e82POQwlfP7RG71HzXAHaEK?pid=ImgDet&w=474&h=266&rs=1')] bg-cover bg-center p-4 rounded-lg">
+            <div className="my-8 text-left bg-[url('https://th.bing.com/th/id/OIP.-u1e82POQwlfP7RG71HzXAHaEK?pid=ImgDet&w=474&h=266&rs=1')] bg-cover bg-center p-4 rounded-lg">
               <div className="flex items-start ">
                 <div className="flex items-center p-2">
                   <VscVerified className="text-5xl" />
@@ -54,7 +54,7 @@ const CoyuAssurance = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="my-6 text-left bg-[url('https://th.bing.com/th/id/OIP.-u1e82POQwlfP7RG71HzXAHaEK?pid=ImgDet&w=474&h=266&rs=1')] bg-cover bg-center p-4 rounded-lg">
+            <div className="my-8 text-left bg-[url('https://th.bing.com/th/id/OIP.-u1e82POQwlfP7RG71HzXAHaEK?pid=ImgDet&w=474&h=266&rs=1')] bg-cover bg-center p-4 rounded-lg">
               <div className="flex items-start">
                 <div className="flex items-center p-2">
                   <VscVerified className="text-5xl" />

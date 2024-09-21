@@ -72,7 +72,7 @@ const ShopByOccasions = () => {
 
       {/* Dynamic collection button */}
       <div className="mt-4 text-center bg-blue-50 rounded-md">
-        <button className="mt-1 text-blue-600">
+        <button className="text-blue-600 py-2">
           {activeOccasion.toUpperCase()} COLLECTION ➜
         </button>
       </div>

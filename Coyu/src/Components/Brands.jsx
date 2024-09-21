@@ -21,7 +21,7 @@ const brands = [
 ];
 
 const BrandRow = ({ brands }) => (
-  <div className="flex overflow-x-auto space-x-4 scrollbar-hide">
+  <div className="flex overflow-x-auto space-x-4 no-scrollbar">
     {brands.map((brand, index) => (
       <div key={index} className="min-w-max">
         <img src={brand.image} alt={brand.name} className="h-24 w-24 rounded-3xl" />

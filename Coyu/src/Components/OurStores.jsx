@@ -85,7 +85,7 @@ const OurStores = () => {
   }, [activeTab, scrollingByTabClick]);
 
   return (
-    <div className="container mx-auto px-4 py-8 text-sm ">
+    <div className="container mx-auto px-4 py-4 text-sm ">
       <h2 className="font-bold mb-4">OUR STORES</h2>
 
       {/* Tabs for locations */}
@@ -109,7 +109,7 @@ const OurStores = () => {
       <div
         ref={scrollRef}
         onScroll={handleScroll}
-        className="flex overflow-x-scroll space-x-2 scrollbar-hide scroll-smooth"
+        className="flex overflow-x-scroll no-scrollbar space-x-2 scrollbar-hide scroll-smooth"
       >
         <StoreCard
           key="Delhi"

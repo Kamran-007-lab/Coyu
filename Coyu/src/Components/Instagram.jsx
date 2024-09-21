@@ -27,7 +27,7 @@ const Instagram = () => {
         </a>
       </div>
 
-      <div className="overflow-x-scroll">
+      <div className="overflow-x-scroll no-scrollbar">
         <div className="grid grid-rows-2 grid-flow-col gap-1">
           {instagramPosts.map((post, index) => (
             <div key={index} className="w-40 h-40 bg-gray-100 rounded-lg overflow-hidden">

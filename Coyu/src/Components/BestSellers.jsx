@@ -42,7 +42,7 @@ const BestSellers = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-8 text-sm">
+    <div className="container mx-auto px-4 py-4 text-sm">
       <div className='flex justify-between mb-4'>
         <h2 className="font-bold ">BESTSELLERS</h2>
         <h2 className='text-blue-600 flex font-semibold items-center '>VIEW ALL<span className="font-light ml-1">➜</span></h2>
@@ -50,7 +50,7 @@ const BestSellers = () => {
 
       {/* First row of images */}
       <div className=" overflow-x-hidden ">
-        <div ref={row1Ref} className="flex -space-x-4 overflow-x-scroll scroll-smooth ">
+        <div ref={row1Ref} className="flex -space-x-4 overflow-x-scroll no-scrollbar scroll-smooth ">
           {imagesRow1.map((image, index) => (
             <div key={index} className="flex-shrink-0 w-48 transform scale-90">
               <img src={image} alt={`Bestseller ${index + 1}`} className="w-full h-full rounded-lg" />
@@ -61,7 +61,7 @@ const BestSellers = () => {
 
       {/* Second row of images */}
       <div className=" overflow-x-hidden">
-        <div ref={row2Ref} className="flex -space-x-4 overflow-x-scroll scroll-smooth">
+        <div ref={row2Ref} className="flex -space-x-4 overflow-x-scroll no-scrollbar scroll-smooth">
           {imagesRow2.map((image, index) => (
             <div key={index} className="flex-shrink-0 w-48 transform scale-90">
               <img src={image} alt={`Bestseller ${index + 1}`} className="w-full h-full rounded-lg" />
