@@ -7,7 +7,7 @@ const WhatsApp = () => {
     <div>
         <p className="font-bold">Need any help? Simply</p><p className='font-bold'>drop us a text.</p>
         <a href="https://wa.me" className="text-blue-500 hover:underline flex items-center font-semibold mt-2">
-          WHATSAPP US <span className="ml-2">→</span>
+          WHATSAPP US <span className="font-light ml-1"> ➜</span>
         </a>
       </div>
       <div className="w-12 h-12">
