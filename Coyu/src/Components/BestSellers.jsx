@@ -42,10 +42,10 @@ const BestSellers = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-4 text-sm">
-      <div className='flex justify-between mb-4'>
+    <div className="container mx-auto px-4 py-4 text-sm font-hanken">
+      <div className='flex justify-between mb-4 text-base'>
         <h2 className="font-bold ">BESTSELLERS</h2>
-        <h2 className='text-blue-600 flex font-semibold items-center '>VIEW ALL<span className="font-light ml-1">➜</span></h2>
+        <h2 className='text-blue-500 flex font-semibold items-center '>VIEW ALL<span className="font-light ml-1">➜</span></h2>
       </div>
 
       {/* First row of images */}

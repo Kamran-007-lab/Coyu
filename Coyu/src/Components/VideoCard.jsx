@@ -3,7 +3,7 @@ import { FaVideo, FaComments } from "react-icons/fa";
 const VideoCard = () => {
   return (
     <div className="bg-white rounded-lg p-4 max-w-md mx-auto text-sm">
-      <div>
+      <div className="text-base">
         <h1 className="font-bold pb-4">SHOP FROM OUR STORE VIA VIDEO CALL</h1>
       </div>
       {/* https://wallpapers.com/images/hd/clean-background-w4ezih6ialmlu29o.jpg */}

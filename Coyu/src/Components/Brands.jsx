@@ -34,8 +34,8 @@ const BrandRow = ({ brands }) => (
 // https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700444416.jpg
 const Brands = () => {
   return (
-    <div className="p-4 text-sm">
-      <div className="flex justify-between items-center mb-6">
+    <div className="p-4 text-sm font-hanken">
+      <div className="flex justify-between items-center mb-6 text-base">
         <h2 className="font-bold">OUR BRANDS</h2>
         <button className="text-blue-500 font-semibold">
           VIEW ALL <span className="font-light">➜</span>

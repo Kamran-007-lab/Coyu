@@ -41,7 +41,7 @@ const FreshDrops = () => {
   return (
     <div className="bg-white p-4 text-sm">
       {/* Header */}
-      <div className="flex justify-between items-center mb-4 text-sm">
+      <div className="flex justify-between items-center mb-4 text-base">
         <div>
           <h1 className="font-bold">FRESH DROPS OF THE WEEK</h1>
           <h3>300+ styles dropped</h3>

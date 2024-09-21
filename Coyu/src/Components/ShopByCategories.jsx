@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 const ShopByCategories = () => {
   return (
     <div className="w-full text-sm">
-    <div className="flex justify-between">
+    <div className="flex justify-between text-base">
         <h1 className="px-4 font-bold">SHOP BY CATEGORIES</h1>
         <span className="text-blue-600 px-4 flex items-center"><h1 className="mr-2 font-semibold">VIEW ALL</h1><FaArrowRight/></span>
     </div>

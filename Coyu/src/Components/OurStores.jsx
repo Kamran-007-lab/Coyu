@@ -86,7 +86,7 @@ const OurStores = () => {
 
   return (
     <div className="container mx-auto px-4 py-4 text-sm ">
-      <h2 className="font-bold mb-4">OUR STORES</h2>
+      <h2 className="font-bold mb-4 text-base">OUR STORES</h2>
 
       {/* Tabs for locations */}
       <div className="flex space-x-4 mb-6">

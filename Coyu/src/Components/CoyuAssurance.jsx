@@ -7,8 +7,8 @@ import "swiper/css/pagination";
 
 const CoyuAssurance = () => {
   return (
-    <div className="p-4 w-full mt-4 flex flex-col items-center text-sm">
-      <div className="flex flex-col font-bold w-full max-w-sm">
+    <div className="p-4 w-full mt-4 flex flex-col items-center text-sm font-hanken">
+      <div className="flex flex-col font-bold w-full max-w-sm text-base">
         <h1>COYU ASSURANCE</h1>
         <h3>Premium Quality | Perfect Fit | 24x7 Support</h3>
       </div>

@@ -18,7 +18,7 @@ import Footer from "./Footer";
 
 const Home = () => {
   return (
-    <div>
+    <div className="font-hanken">
       <Header />
       <Hero />
       <FreshDrops />
