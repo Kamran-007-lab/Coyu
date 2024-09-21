@@ -46,7 +46,7 @@ const OurStores = () => {
         locationUrl: 'https://maps.app.goo.gl/rDdv9VScs11ikta29',
       },
       {
-        image: 'https://images.pexels.com/photos/974261/pexels-photo-974261.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: 'https://images.pexels.com/photos/4913391/pexels-photo-4913391.jpeg?auto=compress&cs=tinysrgb&w=400',
         mallName: 'Ambience Mall',
         address: 'Ambience Island, Gurgaon',
         timing: '10:00 AM to 09:00 PM',
