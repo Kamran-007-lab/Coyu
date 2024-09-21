@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
@@ -13,9 +13,19 @@ import { BsArrowRightSquareFill } from "react-icons/bs";
 const Hero = () => {
   const images = [img2, img3, img4, img1];
 
+
+  const swiperRef = useRef(null);
+
+  const handleArrowClick = () => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slideNext();
+    }
+  };
+
   return (
     <div className="hero-section w-full flex flex-col justify-center items-center bg-white py-8 px-4">
       <Swiper
+        ref={swiperRef} 
         modules={[Pagination]}
         spaceBetween={20}
         slidesPerView={1}
@@ -32,14 +42,17 @@ const Hero = () => {
                 alt={`slide-${index}`}
                 className="w-full object-cover rounded-full mx-auto"
                 style={{
-                  borderRadius: "100% / 65%", // Maintain oval shape
+                  borderRadius: "100% / 65%", 
                 }}
               />
               {/* Headings (Overlay on Image) */}
               <div className="absolute bottom-5 w-full text-center flex flex-col items-center">
                 <h2 className="text-white text-xl">NEW COLLECTION</h2>
                 <h1 className="text-white text-4xl">Winter Edit</h1>
-                <span className="my-2 text-5xl text-white">
+                <span
+                  className="my-2 text-5xl text-white cursor-pointer"
+                  onClick={handleArrowClick} 
+                >
                   <BsArrowRightSquareFill />
                 </span>
               </div>
@@ -48,7 +61,7 @@ const Hero = () => {
         ))}
       </Swiper>
 
-      {/* Express Delivery Section */}
+      {/*Delivery Section */}
       <div className="bg-[url('https://th.bing.com/th/id/OIP.p7ilqfCiOwnzzFSlQCW_rwHaEU?w=271&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7')] bg-cover bg-center mt-10 w-full max-w-sm text-center flex items-center px-4 py-3 space-x-4">
         <div className="p-4 rounded-full bg-white">
           <FiTruck />
