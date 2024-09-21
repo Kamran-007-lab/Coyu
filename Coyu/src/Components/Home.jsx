@@ -13,6 +13,7 @@ import Instagram from "./Instagram";
 import Social from "./Social";
 import Brands from "./Brands";
 import MenuBar from "./MenuBar";
+import WhatsApp from "./WhatsApp";
 import Footer from "./Footer";
 
 const Home = () => {
@@ -30,6 +31,7 @@ const Home = () => {
       <OurStores />
       <StoreEvents />
       <Instagram />
+      <WhatsApp/>
       <Social />
       <Footer/>
 

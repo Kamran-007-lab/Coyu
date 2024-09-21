@@ -16,9 +16,9 @@ const ShopByOccasions = () => {
   ];
 
   return (
-    <div className="p-4 max-w-5xl mx-auto">
+    <div className="p-4 max-w-5xl mx-auto text-sm">
       {/* Shop by Occasions */}
-      <h2 className="text-lg font-bold mb-4">SHOP BY OCCASIONS</h2>
+      <h2 className="font-bold mb-4">SHOP BY OCCASIONS</h2>
       
       {/* Occasion Tabs */}
       <div className="flex justify-between mb-6">

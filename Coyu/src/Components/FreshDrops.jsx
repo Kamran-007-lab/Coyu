@@ -39,15 +39,17 @@ const FreshDrops = () => {
   }, []);
 
   return (
-    <div className="bg-white p-4">
+    <div className="bg-white p-4 text-sm">
       {/* Header */}
-      <div className="flex justify-between items-center mb-4">
+      <div className="flex justify-between items-center mb-4 text-sm">
         <div>
-          <h1 className="text-lg font-bold">FRESH DROPS OF THE WEEK</h1>
+          <h1 className="font-bold">FRESH DROPS OF THE WEEK</h1>
           <h3>300+ styles dropped</h3>
         </div>
 
-        <button className="text-blue-500 text-sm">VIEW ALL</button>
+        <button className="text-blue-500 font-semibold">
+          VIEW ALL <span className="font-light">➜</span>
+        </button>
       </div>
 
       {/* Grid Layout */}
@@ -104,8 +106,8 @@ const FreshDrops = () => {
       </div>
       {/* https://th.bing.com/th/id/OIP.ZRhzEjXI3LrqR2jbb_qZDQHaEK?rs=1&pid=ImgDetMain */}
 
-      {/* WhatsApp Button */}
-      <div className="text-center mt-4">
+      
+      <div className="text-start mt-4">
         <h1 className="font-bold">GET NEW DROPS & OFFERS ON WHATSAPP</h1>
       </div>
 
@@ -114,37 +116,37 @@ const FreshDrops = () => {
           <span className="p-2 text-center ">NEXT DROP IN</span>
           <div className="flex">
             <div className="p-2 text-center">
-              <p className="text-2xl">{String(time.days).padStart(2, "0")}</p>
-              <p className="text-sm">DAYS</p>
+              <p className="text-lg">{String(time.days).padStart(2, "0")}</p>
+              <p className="text-xs">DAYS</p>
             </div>
             <div className="p-2 text-center">
-              <p className="text-2xl">{String(time.hours).padStart(2, "0")}</p>
-              <p className="text-sm">HRS</p>
+              <p className="text-lg">{String(time.hours).padStart(2, "0")}</p>
+              <p className="text-xs">HRS</p>
             </div>
             <div className="p-2 text-center">
-              <p className="text-2xl">
+              <p className="text-lg">
                 {String(time.minutes).padStart(2, "0")}
               </p>
-              <p className="text-sm">MINS</p>
+              <p className="text-xs">MINS</p>
             </div>
             <div className="p-2 text-center">
-              <p className="text-2xl">
+              <p className="text-lg">
                 {String(time.seconds).padStart(2, "0")}
               </p>
-              <p className="text-sm">SECS</p>
+              <p className="text-xs">SECS</p>
             </div>
           </div>
         </div>
         <form className="relative">
           <div className="relative">
             <input
-              className="w-full border border-black p-2 pr-20 rounded-lg"
+              className="w-full border border-black p-2 pr-20 rounded-sm text-xs"
               placeholder="ENTER YOUR NUMBER"
               type="number"
             />
             <button
               type="submit"
-              className="absolute right-2 top-1/2 transform -translate-y-1/2 text-blue-600 p-2 rounded-lg text-md"
+              className="absolute right-2 top-1/2 transform -translate-y-1/2 text-blue-600 p-2 rounded-lg text-xs"
             >
               SUBMIT
             </button>

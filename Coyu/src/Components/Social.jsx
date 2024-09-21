@@ -8,16 +8,16 @@ const Social = () => {
   const [showConnect, setShowConnect] = useState(false);
 
   return (
-    <div className="bg-white py-8">
+    <div className="bg-white py-8 text-sm">
       {/* Email Signup Section */}
       <div className="max-w-lg mx-auto text-start px-4">
-        <h2 className="text-lg font-semibold">SIGN UP FOR EMAIL</h2>
+        <h2 className="font-semibold">SIGN UP FOR EMAIL</h2>
         <p className="text-sm text-gray-600">
           Receive early access to new arrivals, sales, exclusive content, events
           and much more!
         </p>
         <div className="mt-4">
-        <h2 className="text-lg font-semibold my-2">EMAIL ADDRESS*</h2>
+        <h2 className="font-semibold my-2">EMAIL ADDRESS*</h2>
           <input
             type="email"
             placeholder="Enter your email address"
@@ -50,7 +50,7 @@ const Social = () => {
       </div>
 
       {/* Dropdown Sections */}
-      <div className="mt-8 w-full font-semibold">
+      <div className="mt-8 w-full font-semibold text-sm">
         {/* Products Dropdown */}
         <div className="">
           <button

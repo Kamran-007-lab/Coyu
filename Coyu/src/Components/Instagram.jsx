@@ -20,10 +20,10 @@ const Instagram = () => {
   return (
     <div className="container mx-auto px-4 py-8">
 
-      <div className="flex justify-between mb-4">
-        <h2 className="text-lg font-bold ">OUR INSTAGRAM @COYU</h2>
+      <div className="text-sm flex justify-between mb-4">
+        <a href="https://www.instagram.com/coyuofficial/"><h2 className=" font-bold ">OUR INSTAGRAM @COYU</h2></a>
         <a href="#" className="text-blue-600 flex font-semibold items-center">
-          INSTAGRAM <FaArrowRight />
+          INSTAGRAM <span className="font-light ml-1">➜</span>
         </a>
       </div>
 

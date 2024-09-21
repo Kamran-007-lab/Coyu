@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright Text */}
-      <p className="text-gray-500 text-lg">
+      <p className="text-gray-500 text-sm">
         &copy; 2024 COYU.COM. ALL RIGHTS RESERVED.
       </p>
     </div>
